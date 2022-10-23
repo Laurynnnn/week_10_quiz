@@ -2,8 +2,6 @@ from os import link
 from turtle import title
 from CBS import db
 from datetime import datetime
-import sqlite3
-
 
 class ExtraMixin(object):
     id = db.Column(db.Integer, primary_key=True)
