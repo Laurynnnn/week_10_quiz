@@ -4,7 +4,6 @@ from .config import app_config
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_marshmallow import Marshmallow
-# import sqlite3 as sql
 
 # db variable initialization
 db = SQLAlchemy()
