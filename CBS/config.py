@@ -2,7 +2,7 @@ class BaseConfig(object):
     DEBUG = False
     TESTING = False
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root@localhost:3306/cbs.db'
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///cbs.db'
     SECRET_KEY = 'this is a secret key'
 
 class DevelopmentConfig(BaseConfig):
