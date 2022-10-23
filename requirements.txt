@@ -5,5 +5,4 @@ flask-marshmallow
 PyMySQL
 requests
 BeautifulSoup4
-sqlite3
-lmxl
+lxml
