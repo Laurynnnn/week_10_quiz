@@ -21,10 +21,10 @@ class ExtraMixin(object):
 #CBS News model
 class CBSNews(db.Model, ExtraMixin):
     __tablename__ =  'cbs_news'
-    title = db.column(db.String(100), nullable = False)
-    link = db.column(db.String(100), nullable = False)
-    image = db.column(db.String(100), nullable = False)
-    description = db.column(db.String(500), nullable = False)
+    title = db.Column(db.String(100), nullable = False)
+    link = db.Column(db.String(100), nullable = False)
+    image = db.Column(db.String(100), nullable = False)
+    description = db.Column(db.String(500), nullable = False)
     
     @classmethod
     def get_cbs_news(cls):
